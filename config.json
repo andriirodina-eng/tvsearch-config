@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "packageName": "com.google.android.youtube.tv",
+      "searchUrl": "https://www.youtube.com/results?search_query=%s",
+      "methods": ["ACTION_SEARCH", "WEB"]
+    },
+    {
+      "id": "megogo",
+      "title": "MEGOGO",
+      "packageName": "com.megogo.application",
+      "searchUrl": "https://megogo.net/ua/search-extended?q=%s",
+      "methods": ["ACTION_SEARCH", "WEB"]
+    },
+    {
+      "id": "sweettv",
+      "title": "SWEET.TV",
+      "packageName": "tv.sweet.tvplayer",
+      "searchUrl": "https://sweet.tv/search?q=%s",
+      "methods": ["ACTION_SEARCH", "WEB"]
+    },
+    {
+      "id": "kyivstar",
+      "title": "Київстар ТБ",
+      "packageName": "com.kyivstar.tv.androidtv",
+      "searchUrl": null,
+      "methods": ["ACTION_SEARCH"]
+    },
+    {
+      "id": "cloudstream",
+      "title": "CloudStream",
+      "packageName": "com.lagradost.cloudstream3",
+      "searchUrl": null,
+      "methods": ["ACTION_SEARCH"]
+    },
+    {
+      "id": "lampa",
+      "title": "Lampa",
+      "packageName": "top.rootu.lampa",
+      "searchUrl": null,
+      "methods": ["ACTION_SEARCH"]
+    },
+    {
+      "id": "google",
+      "title": "Пошук скрізь (Google TV)",
+      "packageName": null,
+      "searchUrl": "https://www.google.com/search?q=%s",
+      "methods": ["GLOBAL_SEARCH", "WEB"]
+    }
+  ]
+}
